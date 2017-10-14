@@ -1,135 +1,348 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tour start="node1">
   <panorama id="node1">
-    <input width="2000" leveltilesize="510" leveltileurl="tiles/1_一层大厅中央/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2000" levelingpitch="0" levelbiashidpi="0.400" levelbias="0.400" levelingroll="0" overlap="1">
-      <level width="2000" predecode="0" height="2000" preload="0"/>
-      <level width="1000" predecode="0" height="1000" preload="0"/>
-      <level width="500" predecode="1" height="500" preload="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input width="2000" height="2000" leveltilesize="510" levelbiashidpi="0.400" overlap="1" levelingroll="0" levelingpitch="0" leveltileurl="tiles/1_一层大厅中央/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400">
+      <level width="2000" height="2000" preload="0" predecode="0"/>
+      <level width="1000" height="1000" preload="0" predecode="0"/>
+      <level width="500" height="500" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start pan="0" fov="70" tilt="0"/>
-      <min pan="0" fov="5" tilt="-90"/>
-      <max pan="360" fov="120" tilt="90"/>
+      <start fov="70" tilt="-8" pan="128"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fov="120" tilt="90" pan="360"/>
     </view>
-    <userdata copyright="" source="" latitude="" description="" comment="" info="" datetime="2017:06:03 23:30:10" tags="360photo" longitude="" title="" author=""/>
+    <userdata title="" tags="360photo" info="" datetime="2017:06:03 23:30:10" latitude="" comment="" copyright="" source="" description="" author="" longitude=""/>
     <hotspots width="180" height="20" wordwrap="1">
-      <label width="180" height="20" borderradius="1" borderalpha="1" bordercolor="0x000000" backgroundalpha="1" backgroundcolor="0xffffff" background="1" wordwrap="1" textcolor="0x000000" textalpha="1" enabled="1" border="1"/>
-      <polystyle borderalpha="1" handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" mode="0"/>
-      <hotspot id="Point01" pan="63.66" skinid="ht_node" description="" tilt="-7.95" url="{node2}" title="" target="172.855/-1.39347/61.1698"/>
+      <label width="180" height="20" bordercolor="0x000000" backgroundcolor="0xffffff" wordwrap="1" textalpha="1" borderalpha="1" textcolor="0x000000" backgroundalpha="1" borderradius="1" enabled="1" border="1" background="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" handcursor="1" borderalpha="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" title="消控室" tilt="1.16" url="{node2}" skinid="ht_node" description="" pan="150.28" target=""/>
+      <hotspot id="Point02" title="一层大厅北侧" tilt="1.43" url="{node5}" skinid="ht_node" description="" pan="115.63" target=""/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" blendcolor="0x000000" type="crossdissolve" blendtime="1" zoomspeed="2" zoomin="0" zoomout="0" softedge="0" enabled="0"/>
-    <control speedwheel="1" contextfullscreen="0" lockedkeyboardzoom="0" invertwheel="0" simulatemass="1" dblclickfullscreen="0" lockedmouse="0" hideabout="0" invertcontrol="1" sensitivity="8" lockedwheel="0" lockedkeyboard="0"/>
+    <transition type="crossdissolve" zoomfov="20" blendtime="1" zoomout="0" zoomspeed="2" softedge="0" enabled="0" blendcolor="0x000000" zoomoutpause="1" zoomin="0"/>
+    <control sensitivity="8" simulatemass="1" lockedkeyboard="0" invertwheel="0" hideabout="0" lockedmouse="0" lockedwheel="0" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextfullscreen="0"/>
   </panorama>
   <panorama id="node2">
-    <input width="2000" leveltilesize="510" leveltileurl="tiles/2_一层大厅北侧/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2000" levelingpitch="0" levelbiashidpi="0.400" levelbias="0.400" levelingroll="0" overlap="1">
-      <level width="2000" predecode="0" height="2000" preload="0"/>
-      <level width="1000" predecode="0" height="1000" preload="0"/>
-      <level width="500" predecode="1" height="500" preload="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input width="2000" height="2000" leveltilesize="510" levelbiashidpi="0.400" overlap="1" levelingroll="0" levelingpitch="0" leveltileurl="tiles/19_消控室/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400">
+      <level width="2000" height="2000" preload="0" predecode="0"/>
+      <level width="1000" height="1000" preload="0" predecode="0"/>
+      <level width="500" height="500" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start pan="0" fov="70" tilt="0"/>
-      <min pan="0" fov="5" tilt="-90"/>
-      <max pan="360" fov="120" tilt="90"/>
+      <start fov="70" tilt="-3" pan="41"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fov="120" tilt="90" pan="360"/>
     </view>
-    <userdata copyright="" source="" latitude="" description="" comment="" info="" datetime="2017:06:03 23:28:51" tags="360photo" longitude="" title="" author=""/>
+    <userdata title="" tags="360photo" info="" datetime="2017:06:03 21:26:34" latitude="" comment="" copyright="" source="" description="" author="" longitude=""/>
     <hotspots width="180" height="20" wordwrap="1">
-      <label width="180" height="20" borderradius="1" borderalpha="1" bordercolor="0x000000" backgroundalpha="1" backgroundcolor="0xffffff" background="1" wordwrap="1" textcolor="0x000000" textalpha="1" enabled="1" border="1"/>
-      <polystyle borderalpha="1" handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" mode="0"/>
-      <hotspot id="Point01" pan="148.77" skinid="ht_node" description="" tilt="-18.17" url="{node3}" title="" target=""/>
+      <label width="180" height="20" bordercolor="0x000000" backgroundcolor="0xffffff" wordwrap="1" textalpha="1" borderalpha="1" textcolor="0x000000" backgroundalpha="1" borderradius="1" enabled="1" border="1" background="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" handcursor="1" borderalpha="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" title="消防水泵房" tilt="-0.53" url="{node3}" skinid="ht_node" description="" pan="-51.15" target=""/>
+      <hotspot id="Point02" title="一层大厅中央" tilt="-10.79" url="{node1}" skinid="ht_node" description="" pan="-154.52" target=""/>
+      <hotspot id="Point03" title="水泵房" tilt="-0.86" url="{node16}" skinid="ht_node" description="" pan="-73.94" target=""/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" blendcolor="0x000000" type="crossdissolve" blendtime="1" zoomspeed="2" zoomin="0" zoomout="0" softedge="0" enabled="0"/>
-    <control speedwheel="1" contextfullscreen="0" lockedkeyboardzoom="0" invertwheel="0" simulatemass="1" dblclickfullscreen="0" lockedmouse="0" hideabout="0" invertcontrol="1" sensitivity="8" lockedwheel="0" lockedkeyboard="0"/>
+    <transition type="crossdissolve" zoomfov="20" blendtime="1" zoomout="0" zoomspeed="2" softedge="0" enabled="0" blendcolor="0x000000" zoomoutpause="1" zoomin="0"/>
+    <control sensitivity="8" simulatemass="1" lockedkeyboard="0" invertwheel="0" hideabout="0" lockedmouse="0" lockedwheel="0" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextfullscreen="0"/>
   </panorama>
   <panorama id="node3">
-    <input width="2000" leveltilesize="510" leveltileurl="tiles/3_五层电梯间/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2000" levelingpitch="0" levelbiashidpi="0.400" levelbias="0.400" levelingroll="0" overlap="1">
-      <level width="2000" predecode="0" height="2000" preload="0"/>
-      <level width="1000" predecode="0" height="1000" preload="0"/>
-      <level width="500" predecode="1" height="500" preload="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input width="2000" height="2000" leveltilesize="510" levelbiashidpi="0.400" overlap="1" levelingroll="0" levelingpitch="0" leveltileurl="tiles/17_消防水泵房/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400">
+      <level width="2000" height="2000" preload="0" predecode="0"/>
+      <level width="1000" height="1000" preload="0" predecode="0"/>
+      <level width="500" height="500" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start pan="0" fov="70" tilt="0"/>
-      <min pan="0" fov="5" tilt="-90"/>
-      <max pan="360" fov="120" tilt="90"/>
+      <start fov="70" tilt="-3" pan="-59"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fov="120" tilt="90" pan="360"/>
     </view>
-    <userdata copyright="" source="" latitude="" description="" comment="" info="" datetime="2017:06:03 23:28:02" tags="360photo" longitude="" title="" author=""/>
+    <userdata title="" tags="360photo" info="" datetime="2017:06:03 21:36:28" latitude="" comment="" copyright="" source="" description="" author="" longitude=""/>
     <hotspots width="180" height="20" wordwrap="1">
-      <label width="180" height="20" borderradius="1" borderalpha="1" bordercolor="0x000000" backgroundalpha="1" backgroundcolor="0xffffff" background="1" wordwrap="1" textcolor="0x000000" textalpha="1" enabled="1" border="1"/>
-      <polystyle borderalpha="1" handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" mode="0"/>
-      <hotspot id="Point01" pan="-125.42" skinid="ht_node" description="" tilt="-24.49" url="{node4}" title="" target=""/>
+      <label width="180" height="20" bordercolor="0x000000" backgroundcolor="0xffffff" wordwrap="1" textalpha="1" borderalpha="1" textcolor="0x000000" backgroundalpha="1" borderradius="1" enabled="1" border="1" background="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" handcursor="1" borderalpha="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" title="柴油发电机房" tilt="6.68" url="{node4}" skinid="ht_node" description="" pan="-151.36" target=""/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" blendcolor="0x000000" type="crossdissolve" blendtime="1" zoomspeed="2" zoomin="0" zoomout="0" softedge="0" enabled="0"/>
-    <control speedwheel="1" contextfullscreen="0" lockedkeyboardzoom="0" invertwheel="0" simulatemass="1" dblclickfullscreen="0" lockedmouse="0" hideabout="0" invertcontrol="1" sensitivity="8" lockedwheel="0" lockedkeyboard="0"/>
+    <transition type="crossdissolve" zoomfov="20" blendtime="1" zoomout="0" zoomspeed="2" softedge="0" enabled="0" blendcolor="0x000000" zoomoutpause="1" zoomin="0"/>
+    <control sensitivity="8" simulatemass="1" lockedkeyboard="0" invertwheel="0" hideabout="0" lockedmouse="0" lockedwheel="0" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextfullscreen="0"/>
   </panorama>
   <panorama id="node4">
-    <input width="2000" leveltilesize="510" leveltileurl="tiles/5_五层健身房/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2000" levelingpitch="0" levelbiashidpi="0.400" levelbias="0.400" levelingroll="0" overlap="1">
-      <level width="2000" predecode="0" height="2000" preload="0"/>
-      <level width="1000" predecode="0" height="1000" preload="0"/>
-      <level width="500" predecode="1" height="500" preload="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input width="2000" height="2000" leveltilesize="510" levelbiashidpi="0.400" overlap="1" levelingroll="0" levelingpitch="0" leveltileurl="tiles/16_负1层柴油发电机房/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400">
+      <level width="2000" height="2000" preload="0" predecode="0"/>
+      <level width="1000" height="1000" preload="0" predecode="0"/>
+      <level width="500" height="500" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start pan="0" fov="70" tilt="0"/>
-      <min pan="0" fov="5" tilt="-90"/>
-      <max pan="360" fov="120" tilt="90"/>
+      <start fov="70" tilt="-4" pan="95"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fov="120" tilt="90" pan="360"/>
     </view>
-    <userdata copyright="" source="" latitude="" description="" comment="" info="" datetime="2017:06:03 23:25:44" tags="360photo" longitude="" title="" author=""/>
+    <userdata title="" tags="360photo" info="" datetime="2017:06:03 21:38:12" latitude="" comment="" copyright="" source="" description="" author="" longitude=""/>
     <hotspots width="180" height="20" wordwrap="1">
-      <label width="180" height="20" borderradius="1" borderalpha="1" bordercolor="0x000000" backgroundalpha="1" backgroundcolor="0xffffff" background="1" wordwrap="1" textcolor="0x000000" textalpha="1" enabled="1" border="1"/>
-      <polystyle borderalpha="1" handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" mode="0"/>
-      <hotspot id="Point01" pan="175.99" skinid="ht_node" description="" tilt="-13.32" url="{node5}" title="" target=""/>
+      <label width="180" height="20" bordercolor="0x000000" backgroundcolor="0xffffff" wordwrap="1" textalpha="1" borderalpha="1" textcolor="0x000000" backgroundalpha="1" borderradius="1" enabled="1" border="1" background="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" handcursor="1" borderalpha="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" title="一层大厅中央" tilt="-0.37" url="{node1}" skinid="ht_node" description="" pan="-163.28" target=""/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" blendcolor="0x000000" type="crossdissolve" blendtime="1" zoomspeed="2" zoomin="0" zoomout="0" softedge="0" enabled="0"/>
-    <control speedwheel="1" contextfullscreen="0" lockedkeyboardzoom="0" invertwheel="0" simulatemass="1" dblclickfullscreen="0" lockedmouse="0" hideabout="0" invertcontrol="1" sensitivity="8" lockedwheel="0" lockedkeyboard="0"/>
-  </panorama>
-  <panorama id="node6">
-    <input width="2000" leveltilesize="510" leveltileurl="tiles/7_五层平台/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2000" levelingpitch="0" levelbiashidpi="0.400" levelbias="0.400" levelingroll="0" overlap="1">
-      <level width="2000" predecode="0" height="2000" preload="0"/>
-      <level width="1000" predecode="0" height="1000" preload="0"/>
-      <level width="500" predecode="1" height="500" preload="1"/>
-      <preview strip="1" color="0x808080"/>
-    </input>
-    <view pannorth="0" fovmode="0">
-      <start pan="0" fov="70" tilt="0"/>
-      <min pan="0" fov="5" tilt="-90"/>
-      <max pan="360" fov="120" tilt="90"/>
-    </view>
-    <userdata copyright="" source="" latitude="" description="" comment="" info="" datetime="2017:06:04 00:18:20" tags="360photo" longitude="" title="" author=""/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label width="180" height="20" borderradius="1" borderalpha="1" bordercolor="0x000000" backgroundalpha="1" backgroundcolor="0xffffff" background="1" wordwrap="1" textcolor="0x000000" textalpha="1" enabled="1" border="1"/>
-      <polystyle borderalpha="1" handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" mode="0"/>
-      <hotspot id="Point01" pan="177.95" skinid="ht_node" description="" tilt="-17.78" url="{node1}" title="" target=""/>
-    </hotspots>
-    <media/>
-    <transition zoomoutpause="1" zoomfov="20" blendcolor="0x000000" type="crossdissolve" blendtime="1" zoomspeed="2" zoomin="0" zoomout="0" softedge="0" enabled="0"/>
-    <control speedwheel="1" contextfullscreen="0" lockedkeyboardzoom="0" invertwheel="0" simulatemass="1" dblclickfullscreen="0" lockedmouse="0" hideabout="0" invertcontrol="1" sensitivity="8" lockedwheel="0" lockedkeyboard="0"/>
+    <transition type="crossdissolve" zoomfov="20" blendtime="1" zoomout="0" zoomspeed="2" softedge="0" enabled="0" blendcolor="0x000000" zoomoutpause="1" zoomin="0"/>
+    <control sensitivity="8" simulatemass="1" lockedkeyboard="0" invertwheel="0" hideabout="0" lockedmouse="0" lockedwheel="0" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextfullscreen="0"/>
   </panorama>
   <panorama id="node5">
-    <input width="2000" leveltilesize="510" leveltileurl="tiles/6_五层游泳馆/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2000" levelingpitch="0" levelbiashidpi="0.400" levelbias="0.400" levelingroll="0" overlap="1">
-      <level width="2000" predecode="0" height="2000" preload="0"/>
-      <level width="1000" predecode="0" height="1000" preload="0"/>
-      <level width="500" predecode="1" height="500" preload="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input width="2000" height="2000" leveltilesize="510" levelbiashidpi="0.400" overlap="1" levelingroll="0" levelingpitch="0" leveltileurl="tiles/2_一层大厅北侧/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400">
+      <level width="2000" height="2000" preload="0" predecode="0"/>
+      <level width="1000" height="1000" preload="0" predecode="0"/>
+      <level width="500" height="500" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start pan="0" fov="70" tilt="0"/>
-      <min pan="0" fov="5" tilt="-90"/>
-      <max pan="360" fov="120" tilt="90"/>
+      <start fov="70" tilt="0" pan="2"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fov="120" tilt="90" pan="360"/>
     </view>
-    <userdata copyright="" source="" latitude="" description="" comment="" info="" datetime="2017:06:04 00:19:42" tags="360photo" longitude="" title="" author=""/>
+    <userdata title="" tags="360photo" info="" datetime="2017:06:03 23:28:51" latitude="" comment="" copyright="" source="" description="" author="" longitude=""/>
     <hotspots width="180" height="20" wordwrap="1">
-      <label width="180" height="20" borderradius="1" borderalpha="1" bordercolor="0x000000" backgroundalpha="1" backgroundcolor="0xffffff" background="1" wordwrap="1" textcolor="0x000000" textalpha="1" enabled="1" border="1"/>
-      <polystyle borderalpha="1" handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" mode="0"/>
-      <hotspot id="Point01" pan="165.09" skinid="ht_node" description="" tilt="-19.15" url="{node6}" title="" target=""/>
+      <label width="180" height="20" bordercolor="0x000000" backgroundcolor="0xffffff" wordwrap="1" textalpha="1" borderalpha="1" textcolor="0x000000" backgroundalpha="1" borderradius="1" enabled="1" border="1" background="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" handcursor="1" borderalpha="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" title="五层电梯间" tilt="5.01" url="{node7}" skinid="ht_node" description="" pan="-151.83" target=""/>
+      <hotspot id="Point02" title="一层大厅中央" tilt="3.57" url="{node1}" skinid="ht_node" description="" pan="95.9" target=""/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" blendcolor="0x000000" type="crossdissolve" blendtime="1" zoomspeed="2" zoomin="0" zoomout="0" softedge="0" enabled="0"/>
-    <control speedwheel="1" contextfullscreen="0" lockedkeyboardzoom="0" invertwheel="0" simulatemass="1" dblclickfullscreen="0" lockedmouse="0" hideabout="0" invertcontrol="1" sensitivity="8" lockedwheel="0" lockedkeyboard="0"/>
+    <transition type="crossdissolve" zoomfov="20" blendtime="1" zoomout="0" zoomspeed="2" softedge="0" enabled="0" blendcolor="0x000000" zoomoutpause="1" zoomin="0"/>
+    <control sensitivity="8" simulatemass="1" lockedkeyboard="0" invertwheel="0" hideabout="0" lockedmouse="0" lockedwheel="0" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextfullscreen="0"/>
+  </panorama>
+  <panorama id="node7">
+    <input width="2000" height="2000" leveltilesize="510" levelbiashidpi="0.400" overlap="1" levelingroll="0" levelingpitch="0" leveltileurl="tiles/4_五层过道/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400">
+      <level width="2000" height="2000" preload="0" predecode="0"/>
+      <level width="1000" height="1000" preload="0" predecode="0"/>
+      <level width="500" height="500" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" tilt="0" pan="158"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fov="120" tilt="90" pan="360"/>
+    </view>
+    <userdata title="" tags="360photo" info="" datetime="2017:06:03 23:26:54" latitude="" comment="" copyright="" source="" description="" author="" longitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" height="20" bordercolor="0x000000" backgroundcolor="0xffffff" wordwrap="1" textalpha="1" borderalpha="1" textcolor="0x000000" backgroundalpha="1" borderradius="1" enabled="1" border="1" background="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" handcursor="1" borderalpha="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" title="五层平台" tilt="-2.13" url="{node8}" skinid="ht_node" description="" pan="69.34" target=""/>
+      <hotspot id="Point02" title="五层健身房" tilt="1.25" url="{node9}" skinid="ht_node" description="" pan="-118.89" target=""/>
+      <hotspot id="Point03" title="五层游泳馆" tilt="1.68" url="{node10}" skinid="ht_node" description="" pan="154.75" target=""/>
+      <hotspot id="Point04" title="二十八层电梯间" tilt="-2.43" url="{node11}" skinid="ht_node" description="" pan="132.29" target=""/>
+      <hotspot id="Point05" title="一层大厅中央" tilt="-0.93" url="{node1}" skinid="ht_node" description="" pan="176.66" target=""/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomfov="20" blendtime="1" zoomout="0" zoomspeed="2" softedge="0" enabled="0" blendcolor="0x000000" zoomoutpause="1" zoomin="0"/>
+    <control sensitivity="8" simulatemass="1" lockedkeyboard="0" invertwheel="0" hideabout="0" lockedmouse="0" lockedwheel="0" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextfullscreen="0"/>
+  </panorama>
+  <panorama id="node8">
+    <input width="2000" height="2000" leveltilesize="510" levelbiashidpi="0.400" overlap="1" levelingroll="0" levelingpitch="0" leveltileurl="tiles/7_五层平台/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400">
+      <level width="2000" height="2000" preload="0" predecode="0"/>
+      <level width="1000" height="1000" preload="0" predecode="0"/>
+      <level width="500" height="500" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" tilt="0" pan="-45"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fov="120" tilt="90" pan="360"/>
+    </view>
+    <userdata title="" tags="360photo" info="" datetime="2017:06:04 00:18:20" latitude="" comment="" copyright="" source="" description="" author="" longitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" height="20" bordercolor="0x000000" backgroundcolor="0xffffff" wordwrap="1" textalpha="1" borderalpha="1" textcolor="0x000000" backgroundalpha="1" borderradius="1" enabled="1" border="1" background="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" handcursor="1" borderalpha="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" title="五层电梯间" tilt="-1.01" url="{node7}" skinid="ht_node" description="" pan="168.4" target=""/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomfov="20" blendtime="1" zoomout="0" zoomspeed="2" softedge="0" enabled="0" blendcolor="0x000000" zoomoutpause="1" zoomin="0"/>
+    <control sensitivity="8" simulatemass="1" lockedkeyboard="0" invertwheel="0" hideabout="0" lockedmouse="0" lockedwheel="0" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextfullscreen="0"/>
+  </panorama>
+  <panorama id="node9">
+    <input width="2000" height="2000" leveltilesize="510" levelbiashidpi="0.400" overlap="1" levelingroll="0" levelingpitch="0" leveltileurl="tiles/5_五层健身房/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400">
+      <level width="2000" height="2000" preload="0" predecode="0"/>
+      <level width="1000" height="1000" preload="0" predecode="0"/>
+      <level width="500" height="500" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" tilt="0" pan="157"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fov="120" tilt="90" pan="360"/>
+    </view>
+    <userdata title="" tags="360photo" info="" datetime="2017:06:03 23:25:44" latitude="" comment="" copyright="" source="" description="" author="" longitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" height="20" bordercolor="0x000000" backgroundcolor="0xffffff" wordwrap="1" textalpha="1" borderalpha="1" textcolor="0x000000" backgroundalpha="1" borderradius="1" enabled="1" border="1" background="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" handcursor="1" borderalpha="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" title="五层电梯间" tilt="0.6" url="{node7}" skinid="ht_node" description="" pan="29.79" target=""/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomfov="20" blendtime="1" zoomout="0" zoomspeed="2" softedge="0" enabled="0" blendcolor="0x000000" zoomoutpause="1" zoomin="0"/>
+    <control sensitivity="8" simulatemass="1" lockedkeyboard="0" invertwheel="0" hideabout="0" lockedmouse="0" lockedwheel="0" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextfullscreen="0"/>
+  </panorama>
+  <panorama id="node10">
+    <input width="2000" height="2000" leveltilesize="510" levelbiashidpi="0.400" overlap="1" levelingroll="0" levelingpitch="0" leveltileurl="tiles/6_五层游泳馆/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400">
+      <level width="2000" height="2000" preload="0" predecode="0"/>
+      <level width="1000" height="1000" preload="0" predecode="0"/>
+      <level width="500" height="500" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" tilt="0" pan="141"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fov="120" tilt="90" pan="360"/>
+    </view>
+    <userdata title="" tags="360photo" info="" datetime="2017:06:04 00:19:42" latitude="" comment="" copyright="" source="" description="" author="" longitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" height="20" bordercolor="0x000000" backgroundcolor="0xffffff" wordwrap="1" textalpha="1" borderalpha="1" textcolor="0x000000" backgroundalpha="1" borderradius="1" enabled="1" border="1" background="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" handcursor="1" borderalpha="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" title="五层电梯间" tilt="0.29" url="{node7}" skinid="ht_node" description="" pan="-112.78" target=""/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomfov="20" blendtime="1" zoomout="0" zoomspeed="2" softedge="0" enabled="0" blendcolor="0x000000" zoomoutpause="1" zoomin="0"/>
+    <control sensitivity="8" simulatemass="1" lockedkeyboard="0" invertwheel="0" hideabout="0" lockedmouse="0" lockedwheel="0" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextfullscreen="0"/>
+  </panorama>
+  <panorama id="node11">
+    <input width="2000" height="2000" leveltilesize="510" levelbiashidpi="0.400" overlap="1" levelingroll="0" levelingpitch="0" leveltileurl="tiles/9_二十八层过道/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400">
+      <level width="2000" height="2000" preload="0" predecode="0"/>
+      <level width="1000" height="1000" preload="0" predecode="0"/>
+      <level width="500" height="500" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" tilt="0" pan="120"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fov="120" tilt="90" pan="360"/>
+    </view>
+    <userdata title="" tags="360photo" info="" datetime="2017:06:03 23:22:28" latitude="" comment="" copyright="" source="" description="" author="" longitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" height="20" bordercolor="0x000000" backgroundcolor="0xffffff" wordwrap="1" textalpha="1" borderalpha="1" textcolor="0x000000" backgroundalpha="1" borderradius="1" enabled="1" border="1" background="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" handcursor="1" borderalpha="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" title="二十八层大套房" tilt="-3.15" url="{node12}" skinid="ht_node" description="" pan="141.99" target=""/>
+      <hotspot id="Point02" title="二十八层822房间" tilt="-3.83" url="{node13}" skinid="ht_node" description="" pan="119.98" target=""/>
+      <hotspot id="Point03" title="二十八层套房客厅" tilt="0.27" url="{node15}" skinid="ht_node" description="" pan="-65.94" target=""/>
+      <hotspot id="Point04" title="二十八层套房卧室" tilt="-11.48" url="{node14}" skinid="ht_node" description="" pan="-65.91" target=""/>
+      <hotspot id="Point05" title="一层大厅中央" tilt="-3.45" url="{node1}" skinid="ht_node" description="" pan="13.89" target=""/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomfov="20" blendtime="1" zoomout="0" zoomspeed="2" softedge="0" enabled="0" blendcolor="0x000000" zoomoutpause="1" zoomin="0"/>
+    <control sensitivity="8" simulatemass="1" lockedkeyboard="0" invertwheel="0" hideabout="0" lockedmouse="0" lockedwheel="0" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextfullscreen="0"/>
+  </panorama>
+  <panorama id="node12">
+    <input width="2000" height="2000" leveltilesize="510" levelbiashidpi="0.400" overlap="1" levelingroll="0" levelingpitch="0" leveltileurl="tiles/20_821房820房为连着的一个大套房/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400">
+      <level width="2000" height="2000" preload="0" predecode="0"/>
+      <level width="1000" height="1000" preload="0" predecode="0"/>
+      <level width="500" height="500" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" tilt="0" pan="-130.99"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fov="120" tilt="90" pan="360"/>
+    </view>
+    <userdata title="" tags="360photo" info="" datetime="2017:06:03 21:24:55" latitude="" comment="" copyright="" source="" description="" author="" longitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" height="20" bordercolor="0x000000" backgroundcolor="0xffffff" wordwrap="1" textalpha="1" borderalpha="1" textcolor="0x000000" backgroundalpha="1" borderradius="1" enabled="1" border="1" background="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" handcursor="1" borderalpha="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" title="二十八层电梯间" tilt="-3.75" url="{node11}" skinid="ht_node" description="" pan="147.31" target=""/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomfov="20" blendtime="1" zoomout="0" zoomspeed="2" softedge="0" enabled="0" blendcolor="0x000000" zoomoutpause="1" zoomin="0"/>
+    <control sensitivity="8" simulatemass="1" lockedkeyboard="0" invertwheel="0" hideabout="0" lockedmouse="0" lockedwheel="0" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextfullscreen="0"/>
+  </panorama>
+  <panorama id="node13">
+    <input width="2048" height="2048" leveltilesize="510" levelbiashidpi="0.400" overlap="1" levelingroll="0" levelingpitch="0" leveltileurl="tiles/24_28层822/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400">
+      <level width="2048" height="2048" preload="0" predecode="0"/>
+      <level width="1024" height="1024" preload="0" predecode="0"/>
+      <level width="512" height="512" preload="0" predecode="0"/>
+      <level width="256" height="256" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" tilt="0" pan="39"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fov="120" tilt="90" pan="360"/>
+    </view>
+    <userdata title="" tags="360photo" info="" datetime="2017:06:04 18:28:01" latitude="" comment="" copyright="" source="" description="" author="" longitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" height="20" bordercolor="0x000000" backgroundcolor="0xffffff" wordwrap="1" textalpha="1" borderalpha="1" textcolor="0x000000" backgroundalpha="1" borderradius="1" enabled="1" border="1" background="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" handcursor="1" borderalpha="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" title="二十八层电梯间" tilt="-1.12" url="{node11}" skinid="ht_node" description="" pan="-176.11" target=""/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomfov="20" blendtime="1" zoomout="0" zoomspeed="2" softedge="0" enabled="0" blendcolor="0x000000" zoomoutpause="1" zoomin="0"/>
+    <control sensitivity="8" simulatemass="1" lockedkeyboard="0" invertwheel="0" hideabout="0" lockedmouse="0" lockedwheel="0" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextfullscreen="0"/>
+  </panorama>
+  <panorama id="node14">
+    <input width="2048" height="2048" leveltilesize="510" levelbiashidpi="0.400" overlap="1" levelingroll="0" levelingpitch="0" leveltileurl="tiles/21_28层套房卧室/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400">
+      <level width="2048" height="2048" preload="0" predecode="0"/>
+      <level width="1024" height="1024" preload="0" predecode="0"/>
+      <level width="512" height="512" preload="0" predecode="0"/>
+      <level width="256" height="256" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" tilt="0" pan="149"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fov="120" tilt="90" pan="360"/>
+    </view>
+    <userdata title="" tags="360photo" info="" datetime="2017:06:04 00:46:12" latitude="" comment="" copyright="" source="" description="" author="" longitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" height="20" bordercolor="0x000000" backgroundcolor="0xffffff" wordwrap="1" textalpha="1" borderalpha="1" textcolor="0x000000" backgroundalpha="1" borderradius="1" enabled="1" border="1" background="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" handcursor="1" borderalpha="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" title="二十八层电梯间" tilt="-1.19" url="{node11}" skinid="ht_node" description="" pan="99.71" target=""/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomfov="20" blendtime="1" zoomout="0" zoomspeed="2" softedge="0" enabled="0" blendcolor="0x000000" zoomoutpause="1" zoomin="0"/>
+    <control sensitivity="8" simulatemass="1" lockedkeyboard="0" invertwheel="0" hideabout="0" lockedmouse="0" lockedwheel="0" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextfullscreen="0"/>
+  </panorama>
+  <panorama id="node15">
+    <input width="2048" height="2048" leveltilesize="510" levelbiashidpi="0.400" overlap="1" levelingroll="0" levelingpitch="0" leveltileurl="tiles/23_28层套房客厅/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400">
+      <level width="2048" height="2048" preload="0" predecode="0"/>
+      <level width="1024" height="1024" preload="0" predecode="0"/>
+      <level width="512" height="512" preload="0" predecode="0"/>
+      <level width="256" height="256" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" tilt="0" pan="179"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fov="120" tilt="90" pan="360"/>
+    </view>
+    <userdata title="" tags="360photo" info="" datetime="2017:06:04 01:28:04" latitude="" comment="" copyright="" source="" description="" author="" longitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" height="20" bordercolor="0x000000" backgroundcolor="0xffffff" wordwrap="1" textalpha="1" borderalpha="1" textcolor="0x000000" backgroundalpha="1" borderradius="1" enabled="1" border="1" background="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" handcursor="1" borderalpha="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" title="二十八层卧室" tilt="-3.11" url="{node14}" skinid="ht_node" description="" pan="150.82" target=""/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomfov="20" blendtime="1" zoomout="0" zoomspeed="2" softedge="0" enabled="0" blendcolor="0x000000" zoomoutpause="1" zoomin="0"/>
+    <control sensitivity="8" simulatemass="1" lockedkeyboard="0" invertwheel="0" hideabout="0" lockedmouse="0" lockedwheel="0" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextfullscreen="0"/>
+  </panorama>
+  <panorama id="node16">
+    <input width="2000" height="2000" leveltilesize="510" levelbiashidpi="0.400" overlap="1" levelingroll="0" levelingpitch="0" leveltileurl="tiles/18_水泵房/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400">
+      <level width="2000" height="2000" preload="0" predecode="0"/>
+      <level width="1000" height="1000" preload="0" predecode="0"/>
+      <level width="500" height="500" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" tilt="0" pan="-133.99"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fov="120" tilt="90" pan="360"/>
+    </view>
+    <userdata title="" tags="360photo" info="" datetime="2017:06:03 21:35:19" latitude="" comment="" copyright="" source="" description="" author="" longitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" height="20" bordercolor="0x000000" backgroundcolor="0xffffff" wordwrap="1" textalpha="1" borderalpha="1" textcolor="0x000000" backgroundalpha="1" borderradius="1" enabled="1" border="1" background="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" handcursor="1" borderalpha="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" title="一层大厅中央" tilt="2.62" url="{node1}" skinid="ht_node" description="" pan="-63.1" target=""/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomfov="20" blendtime="1" zoomout="0" zoomspeed="2" softedge="0" enabled="0" blendcolor="0x000000" zoomoutpause="1" zoomin="0"/>
+    <control sensitivity="8" simulatemass="1" lockedkeyboard="0" invertwheel="0" hideabout="0" lockedmouse="0" lockedwheel="0" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextfullscreen="0"/>
   </panorama>
 </tour>
